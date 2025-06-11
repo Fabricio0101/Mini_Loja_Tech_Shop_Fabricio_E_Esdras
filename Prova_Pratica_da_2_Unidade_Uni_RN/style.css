@@ -4,9 +4,13 @@
 
 .card {
     display: flex;
+    max-width: 320px;
+    margin: 5px;
+    padding: 10px;
 }
 
 .card img {
     width: 120px;
     border-radius: 50%;
 }
+
