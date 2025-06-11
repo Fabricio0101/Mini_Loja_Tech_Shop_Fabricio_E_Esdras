@@ -62,7 +62,7 @@ body {
 
 .card button:focus {
     padding: 10px;
-    background-color: rgba(100, 148, 237, 0.466);
+    background-color: rgba(106, 150, 231, 0.466);
     border: 2px solid cornflowerblue;
     border-radius: 36px;
     color: cornflowerblue;
