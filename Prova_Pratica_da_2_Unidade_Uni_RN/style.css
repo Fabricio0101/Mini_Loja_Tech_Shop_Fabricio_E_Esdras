@@ -14,3 +14,31 @@
     border-radius: 50%;
 }
 
+.card button {
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 2px solid transparent;
+    border-radius: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+.card button:hover {
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid cornflowerblue;
+    border-radius: 36px;
+    color: cornflowerblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card button:focus {
+    padding: 10px;
+    background-color: rgba(100, 148, 237, 0.466);
+    border: 2px solid cornflowerblue;
+    border-radius: 36px;
+    color: cornflowerblue;
+    font-weight: 600;
+    cursor: pointer;
+}
