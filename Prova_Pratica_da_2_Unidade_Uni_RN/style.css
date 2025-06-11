@@ -1,3 +1,14 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(221, 221, 221, 0.993);
+}
+
 .produtos {
     display: flex;
 }
@@ -5,13 +16,13 @@
 .promo {
     display: flex;
     position: absolute;
-    top: 35px;
+    top: 80px;
     right: 100;
     background-color: red;
     color: white;
     font-weight: 600;
     padding: 10px;
-    border-radius: 0px 36px 36px 0px;
+    border-radius: 36px;
     font-size: 16px;
 }
 
@@ -19,7 +30,10 @@
     display: flex;
     max-width: 320px;
     margin: 50px;
-    padding: 10px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 36px;
 }
 
 .card img {
